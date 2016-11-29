@@ -1,0 +1,32 @@
+# Site settings
+title: My Territory
+blog_title: My Territory
+header-img: img/home-bg.jpg
+email: root@shikherverma.com
+copyright_name: ShikherVerma
+description: "Online Territory of Shikher Verma"
+baseurl: "" #base url is for when the site is not at the root but at some subdirectory.
+url: http://shikherverma.com #only used in disque comments for now
+disqus_url: shikherverma.com # disque comments are broken if you send http:// along with url
+github_username:  shikherverma
+facebook_username:  shikherverma1
+stackoverflow_username: 6764571/shikher-verma
+collections:
+  - portfolio
+
+# used to estimate reading time
+wpm: 150
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+port: 8888
+permalink: /blog/:title
+
+# jekyll-paginate
+paginate: 5
+paginate_path: blog/page:num
+
+# gem dependencies
+gems: [jekyll-paginate, jekyll-feed, jekyll-gist]
