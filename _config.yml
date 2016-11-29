@@ -2,17 +2,17 @@
 title: The Crail Project
 blog_title: The Crail Project
 header-img: img/ib.jpg
-email: root@shikherverma.com
-copyright_name: ShikherVerma
-description: "Online Territory of Shikher Verma"
-baseurl: "" #base url is for when the site is not at the root but at some subdirectory.
+#email: root@shikherverma.com
+#copyright_name: ShikherVerma
+#description: "Online Territory of Shikher Verma"
+baseurl: "https://patrickstuedi.github.io/blog2/" #base url is for when the site is not at the root but at some subdirectory.
 #url: http://shikherverma.com #only used in disque comments for now
 #disqus_url: shikherverma.com # disque comments are broken if you send http:// along with url
 #github_username:  shikherverma
 #facebook_username:  shikherverma1
 #stackoverflow_username: 6764571/shikher-verma
-collections:
-  - portfolio
+#collections:
+#  - portfolio
 
 # used to estimate reading time
 wpm: 150
